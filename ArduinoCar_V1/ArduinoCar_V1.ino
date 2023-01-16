@@ -28,11 +28,15 @@ void loop() {
   digitalWrite(Out3, LOW);
   digitalWrite(Out4, HIGH);
 
+  delay(2000);
+
   //Move backwards
   digitalWrite(Out1, LOW);
   digitalWrite(Out2, HIGH);
   digitalWrite(Out3, HIGH);
   digitalWrite(Out4, LOW);
+
+  delay(2000);
 
   //Turn right
   digitalWrite(Out1, HIGH);
@@ -40,10 +44,14 @@ void loop() {
   digitalWrite(Out3, HIGH);
   digitalWrite(Out4, LOW);
 
-  //Move forward
+  delay(2000);
+
+  //Move left
   digitalWrite(Out1, LOW);
   digitalWrite(Out2, HIGH);
   digitalWrite(Out3, LOW);
   digitalWrite(Out4, HIGH);
+
+  delay(2000);
 }
 
